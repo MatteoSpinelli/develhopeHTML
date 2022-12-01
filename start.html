@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form action="">
+      <label for="email">Email</label>
+      <input type="email" name="email">
+      <label for="password">Password</label>
+      <input type="password" name="password">
+
+      <label for="nameLastname">Name and Lastname</label>
+      <input type="text" name="nameLastname">
+      
+      <label for="birth">Date of birth</label>
+      <input type="date" name="birth">
+
+      <label for="telephone">Telephone number</label>
+      <input type="tel" name="telephone">
+
+      <label for="plans">Choose your plan</label>
+      <select name="plans" id="plans">
+        <option value="free">Free</option>
+        <option value="plan1">12 euro</option>
+        <option value="plan2">18 euro</option>
+        <option value="plan3">25 euro</option>
+      </select>
+      <br>
+      <input type="checkbox" name="pro" id="pro">
+      <label for="pro">Select pro plan</label>
+
+      <label for="creditNumber">Credit card number</label>
+      <input type="text" name="creditNumber">
+      <label for="cvc">CVC</label>
+      <input type="text" name="cvc">
+      <label for="expiration">Expiration date</label>
+      <input type="date" name="expiration">
+      <label for="billingAddress">Billing address</label>
+      <input type="text" name="billingAddress">
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
